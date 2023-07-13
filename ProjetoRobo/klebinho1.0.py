@@ -2,7 +2,8 @@ import speech_recognition as sr  # pip install SpeechRecognition
 import whisper  # pip install whisper-openai
 import pyttsx3  # pip install pyttsx3
 import os
-from PiscadaLoop import reproduzir_video_com_sprites
+
+
 
 
 escolher_stt = "google"
@@ -51,8 +52,8 @@ filename = "audio.wav"
 print("Speak to Text", escolher_stt)
 
 ajustar_ambiente_noise = True
-reproduzir_video_com_sprites(caminho_video='Imagens_e_Vídeos/exemplo_de_sprites/Piscando.mp4')
-talk("Olá, eu sou o Clevinho, e estou aqui pra tirar dúvidas sobre o Projeto da DevCrafters. Me Perguntem qualquer coisa!")
+
+talk("Olá, eu sou o Clebinho, e estou aqui pra tirar dúvidas sobre o Projeto da DevCrafters. Me Perguntem qualquer coisa!")
 while True:
     text = ""
     question = ""
